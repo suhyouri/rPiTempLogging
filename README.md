@@ -1,5 +1,8 @@
-# 1. Get RasberryPi CPU Temp data라즈베리파이 온도 데이터 받기
+Summary. RasberryPi CPU Temp Data Logging to Google Spread Sheet(라즈베리파이 CPU온도 데이터 구글 스프레드시트에 기록하기)
+===
 
+# 1. Get RasberryPi CPU Temp data라즈베리파이 온도 데이터 받기
+---
 - `$ vcgencmd measure_temp` Measure CPU Temperature of Rpi라즈베리파이 CPU온도측정
 in Linux of Rpi 라즈베리파이 리눅스에서 작동
 - `$ vcgencmd measure_temp | egrep -o '[0-9]*\.[0-9]*'` Extract only the temperature data숫자값만 추출
